@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* Tags Básicas */
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: url(/Img/fundo.jpg) no-repeat;
+    background-size: 100%;
+}
+/* Cabeçalho */
+div.logo{
+    background-color:transparent;
+    height: 150px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+div.logo img{
+   height: 80px; 
+   padding-right: 70px;
+}
