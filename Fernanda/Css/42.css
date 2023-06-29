@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: url(/img/thumbnail_fundos_auto_x2.jpg) no-repeat;
+    background-size: 100%;
+}
+
+/* Cabeçalho */
+div.logo {
+    height: 150px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+div.logo img {
+    height: 100px;
+    padding-right: 70px;
+}
+/* Corpo */
+.corpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+
+}
+.formulario{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+}
+.adicionar{
+    background-color: rgb(5, 96, 156);
+    height: 80px;
+    border-radius: 30px 30px 0px 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adicionar p{
+    font: 900 40px Arial, sans-serif;
+    color: white;
+}
+
+.titulo{
+    display: block;
+    margin: 30px 30px;
+}
+
+.barra{
+    border: 0;
+    border-radius: 3px;
+    background-color: rgb(194, 194, 194);
+    height: 30px;
+    width: 100%;
+}
+.barra-metade{
+    border: 0;
+    border-radius: 3px;
+    background-color: rgb(194, 194, 194);
+    height: 30px;
+    width: 30%;
+
+}
+.descrição{
+    display: block;
+    margin: 30px 30px;
+}
+.descrição p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: rgb(5, 96, 156);
+    font: 700 20px Arial, sans-serif;
+}
+
+.turma{
+    display: block;
+    margin: 30px 30px;
+}
+
+.texto{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: rgb(5, 96, 156);
+    font: 700 20px Arial, sans-serif;
+}
+.junto{
+    margin: 30px 30px;
+}
+.ini{
+    display: inline;
+}
+.fim{
+    display: inline;
+    margin-left: 6.5px;
+}
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 30px;
+}
+button{
+    padding: 5px 30px;
+    border: none;
+    border-radius: 15px;
+}
+.cancelar{
+    background-color: red;
+}
+.editar{
+    background-color: rgb(82, 82, 82);
+}
+.salvar{
+    background-color: green;
+}
+.texto1{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: rgb(5, 96, 156);
+    font: 700 15px Arial, sans-serif;
+}
